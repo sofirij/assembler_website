@@ -113,11 +113,6 @@ assembler_website/
 
 - Improve error handling for invalid assembly code.
 
----
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ---
 
