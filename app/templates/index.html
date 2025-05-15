@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assembler Website</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+</head>
+
+<body>
+    <form id="assembler" action="/" method="POST">
+        <div>
+            <h1>Convert your syntatically correct lc3 assembly code to binary</h1>
+            <div class="container">
+                <textarea id="assembly-code" name="assembly-code" placeholder="Assembly code" spellcheck="false">{{ assembly_code }}</textarea>
+                <textarea id="binary-output" name="binary-output" placeholder="Binary output" disabled>{{ binary_output }}</textarea>
+            </div>
+            <div class="button-container">
+                <input type="submit" value="Assemble">
+            </div>
+        </div>
+    </form>
+
+    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+</body>
+</html>
