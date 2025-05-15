@@ -4,6 +4,12 @@ This project is a web-based LC3 assembler that allows users to input syntaticall
 
 ---
 
+## Video Demonstration
+
+https://www.youtube.com/watch?v=UeXdyyhhhjU&ab_channel=StoriesInc
+
+---
+
 ## Features
 
 - **Input LC3 Assembly Code**: Users can input LC3 assembly code in a text area on the web interface.
