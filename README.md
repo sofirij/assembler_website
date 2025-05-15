@@ -72,7 +72,7 @@ assembler_website/
 
 3. Run the Flask application:
    ```bash
-   python3 app.py # On Windows: compile the test.c file on your machine then configure the subprocess module in the web app to use that executable
+   python3 app.py # On Windows: compile the "test.c" file on your machine then configure the subprocess module in "app.py" to use that executable
    ```
 
 4. Open your browser and navigate to:
