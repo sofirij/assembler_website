@@ -45,7 +45,7 @@ assembler_website/
 │   │   │   └── styles.css       # Styles for the web interface
 │   │   ├── js/
 │   │   │   └── index.js         # JavaScript for handling form submission and tab key support
-│   │   ├── test.exe             # Executable for assembling LC3 assembly code
+│   │   ├── test                 # Executable for assembling LC3 assembly code
 │   ├── templates/
 │   │   └── index.html           # HTML template for the web interface
 │   ├── app.py                   # Flask application
